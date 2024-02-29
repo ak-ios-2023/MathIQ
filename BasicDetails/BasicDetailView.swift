@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct BasicDetailView: View {
+    @AppStorage("isOnBoarding") var isOnBoarding: Bool?
     @State var isParent: Bool = false
     @State var isChild: Bool = false
     var body: some View {
@@ -56,10 +57,12 @@ struct BasicDetailView: View {
                         )
                         .padding(EdgeInsets(top: 24, leading: 0, bottom: 24, trailing: 0))
                     Button(action: {
-                        
+                        if isChild || isParent {
+                            isOnBoarding = false
+                        }
                     }, label: {
                         if isChild || isParent {
-                            Image("Button1")
+                            Image("Button12")
                                 .frame(width: 375, height: 75)
                         }else{
                             Image("Button2")

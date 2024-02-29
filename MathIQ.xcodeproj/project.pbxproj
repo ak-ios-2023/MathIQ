@@ -7,11 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E25E50E2B848E6100769FCE /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E25E50D2B848E6100769FCE /* HomePageView.swift */; };
+		1E25E5112B84BFCA00769FCE /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E25E5102B84BFCA00769FCE /* File.swift */; };
+		1E25E5132B84C33500769FCE /* AdditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E25E5122B84C33500769FCE /* AdditionView.swift */; };
+		1E25E5152B85E82F00769FCE /* CustomProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E25E5142B85E82F00769FCE /* CustomProgressView.swift */; };
+		1E25E5172B86002700769FCE /* OptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E25E5162B86002700769FCE /* OptionView.swift */; };
 		1E71E6F22B7B23B4000275C0 /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E71E6F12B7B23B4000275C0 /* OnboardingModel.swift */; };
 		1E71E6F42B7B25B5000275C0 /* OnBoardingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E71E6F32B7B25B5000275C0 /* OnBoardingCardView.swift */; };
 		1E71E6F62B7B3150000275C0 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E71E6F52B7B3150000275C0 /* OnBoardingView.swift */; };
 		1E71E6F82B7B58D4000275C0 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E71E6F72B7B58D4000275C0 /* FontExtension.swift */; };
 		1E71E6FB2B7C91AD000275C0 /* BasicDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E71E6FA2B7C91AD000275C0 /* BasicDetailView.swift */; };
+		1EA873BD2B8C99410067848D /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA873BC2B8C99410067848D /* ScoreView.swift */; };
+		1EA873BF2B8CA0A80067848D /* circularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA873BE2B8CA0A80067848D /* circularProgressBar.swift */; };
+		1EA873C12B8DE59B0067848D /* EquationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA873C02B8DE59B0067848D /* EquationView.swift */; };
+		1EA873C32B8DFB520067848D /* DifficultyLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA873C22B8DFB520067848D /* DifficultyLevel.swift */; };
+		1EA873C62B8F2B6F0067848D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA873C52B8F2B6F0067848D /* ViewModel.swift */; };
+		1EA873C82B8F314C0067848D /* EqView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA873C72B8F314C0067848D /* EqView.swift */; };
+		1EA873CA2B8F32520067848D /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA873C92B8F32520067848D /* GameView.swift */; };
 		1ED03B752B7A1584001594B6 /* MathIQApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED03B742B7A1584001594B6 /* MathIQApp.swift */; };
 		1ED03B772B7A1584001594B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED03B762B7A1584001594B6 /* ContentView.swift */; };
 		1ED03B792B7A1587001594B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ED03B782B7A1587001594B6 /* Assets.xcassets */; };
@@ -39,11 +51,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E25E50D2B848E6100769FCE /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		1E25E5102B84BFCA00769FCE /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		1E25E5122B84C33500769FCE /* AdditionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionView.swift; sourceTree = "<group>"; };
+		1E25E5142B85E82F00769FCE /* CustomProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressView.swift; sourceTree = "<group>"; };
+		1E25E5162B86002700769FCE /* OptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionView.swift; sourceTree = "<group>"; };
 		1E71E6F12B7B23B4000275C0 /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
 		1E71E6F32B7B25B5000275C0 /* OnBoardingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCardView.swift; sourceTree = "<group>"; };
 		1E71E6F52B7B3150000275C0 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		1E71E6F72B7B58D4000275C0 /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
 		1E71E6FA2B7C91AD000275C0 /* BasicDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicDetailView.swift; sourceTree = "<group>"; };
+		1EA873BC2B8C99410067848D /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		1EA873BE2B8CA0A80067848D /* circularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circularProgressBar.swift; sourceTree = "<group>"; };
+		1EA873C02B8DE59B0067848D /* EquationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquationView.swift; sourceTree = "<group>"; };
+		1EA873C22B8DFB520067848D /* DifficultyLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyLevel.swift; sourceTree = "<group>"; };
+		1EA873C52B8F2B6F0067848D /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		1EA873C72B8F314C0067848D /* EqView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqView.swift; sourceTree = "<group>"; };
+		1EA873C92B8F32520067848D /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		1ED03B712B7A1584001594B6 /* MathIQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathIQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ED03B742B7A1584001594B6 /* MathIQApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathIQApp.swift; sourceTree = "<group>"; };
 		1ED03B762B7A1584001594B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -82,6 +106,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E25E50C2B848E3F00769FCE /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				1E25E50D2B848E6100769FCE /* HomePageView.swift */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		1E25E50F2B84BCFE00769FCE /* Addition */ = {
+			isa = PBXGroup;
+			children = (
+				1E25E5122B84C33500769FCE /* AdditionView.swift */,
+				1E25E5142B85E82F00769FCE /* CustomProgressView.swift */,
+				1E25E5162B86002700769FCE /* OptionView.swift */,
+				1EA873BC2B8C99410067848D /* ScoreView.swift */,
+				1EA873C02B8DE59B0067848D /* EquationView.swift */,
+				1EA873BE2B8CA0A80067848D /* circularProgressBar.swift */,
+				1E25E5102B84BFCA00769FCE /* File.swift */,
+				1EA873C22B8DFB520067848D /* DifficultyLevel.swift */,
+			);
+			path = Addition;
+			sourceTree = "<group>";
+		};
 		1E71E6F02B7B2372000275C0 /* OnBoarding */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,13 +148,26 @@
 			path = BasicDetails;
 			sourceTree = "<group>";
 		};
+		1EA873C42B8F2B340067848D /* GenericOperationGame */ = {
+			isa = PBXGroup;
+			children = (
+				1EA873C92B8F32520067848D /* GameView.swift */,
+				1EA873C72B8F314C0067848D /* EqView.swift */,
+				1EA873C52B8F2B6F0067848D /* ViewModel.swift */,
+			);
+			path = GenericOperationGame;
+			sourceTree = "<group>";
+		};
 		1ED03B682B7A1584001594B6 = {
 			isa = PBXGroup;
 			children = (
 				1ED03B732B7A1584001594B6 /* MathIQ */,
 				1E71E6F02B7B2372000275C0 /* OnBoarding */,
 				1E71E6F92B7C9151000275C0 /* BasicDetails */,
+				1E25E50C2B848E3F00769FCE /* HomePage */,
+				1EA873C42B8F2B340067848D /* GenericOperationGame */,
 				1ED03B842B7A1587001594B6 /* MathIQTests */,
+				1E25E50F2B84BCFE00769FCE /* Addition */,
 				1ED03B8E2B7A1587001594B6 /* MathIQUITests */,
 				1ED03B722B7A1584001594B6 /* Products */,
 			);
@@ -291,11 +351,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E71E6FB2B7C91AD000275C0 /* BasicDetailView.swift in Sources */,
+				1EA873C12B8DE59B0067848D /* EquationView.swift in Sources */,
 				1E71E6F82B7B58D4000275C0 /* FontExtension.swift in Sources */,
 				1ED03B772B7A1584001594B6 /* ContentView.swift in Sources */,
+				1E25E5152B85E82F00769FCE /* CustomProgressView.swift in Sources */,
 				1E71E6F42B7B25B5000275C0 /* OnBoardingCardView.swift in Sources */,
+				1EA873C62B8F2B6F0067848D /* ViewModel.swift in Sources */,
 				1ED03B752B7A1584001594B6 /* MathIQApp.swift in Sources */,
+				1E25E5132B84C33500769FCE /* AdditionView.swift in Sources */,
+				1E25E5172B86002700769FCE /* OptionView.swift in Sources */,
 				1E71E6F62B7B3150000275C0 /* OnBoardingView.swift in Sources */,
+				1E25E50E2B848E6100769FCE /* HomePageView.swift in Sources */,
+				1EA873C32B8DFB520067848D /* DifficultyLevel.swift in Sources */,
+				1EA873CA2B8F32520067848D /* GameView.swift in Sources */,
+				1E25E5112B84BFCA00769FCE /* File.swift in Sources */,
+				1EA873BF2B8CA0A80067848D /* circularProgressBar.swift in Sources */,
+				1EA873BD2B8C99410067848D /* ScoreView.swift in Sources */,
+				1EA873C82B8F314C0067848D /* EqView.swift in Sources */,
 				1E71E6F22B7B23B4000275C0 /* OnboardingModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
